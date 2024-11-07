@@ -10,15 +10,15 @@ const HeroSection: React.FC<HeroSectionProps> = ({ children }) => {
       <div className="flex flex-col items-center w-full h-3/4 gap-0">
         {/* 左侧灰色半透明背景 (65%) */}
         <div className="flex flex-row w-full h-full text-left">
-          <div className="w-2/3 relative flex items-center pl-4 md:pl-10 lg:pl-16 md:pb-20 pb-8">
+          <div className="w-2/3 relative flex items-center pl-10 md:pl-16 lg:pl-24 md:pb-20 pb-8">
             {/* Background Image */}
             <img
               src="/people.png"
               alt="Left Background"
-              className="absolute inset-0 max-w-[80%] pt-40 object-contain z-0"
+              className="absolute inset-0 max-w-[60%] md:pt-72 object-contain translate-x-10 z-0"
             />
             {/* Gray Overlay */}
-            <div className="absolute inset-0 bg-[#EDEDE6] bg-opacity-85 z-10"></div>
+            <div className="absolute inset-0 bg-[#EDEDE6] bg-opacity-90 z-10"></div>
             {/* Content Container - Centered Horizontally and Vertically */}
             <div className="relative z-20 p-8 text-left xlg:w-full md:w-3/4">
               <h1 className="text-4xl mi:text-5xl xlg:text-6xl font-bold text-[#722E7B] mb-2">
