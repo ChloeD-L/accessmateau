@@ -5,13 +5,13 @@ import React from "react";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-white text-black  py-10 text-sm md:text-base shadow-footer-custom">
+    <footer className="bg-white text-gray-600  py-10 text-sm md:text-base shadow-footer-custom">
       <div className="container mx-auto flex flex-row sm:items-start iterms-center justify-between lg:px-16 md:gap-0 px-4 md:px-10">
         {/* <img src="/logo.svg" alt="logo" className="hidden w-24 cursor-pointer" />
         <h3 className="text-center text-primary h3 hidden">Why AMA?</h3> */}
 
         <div className="hidden md:flex items-center lg:gap-32 sm:gap-24">
-          <img src="/logo.svg" alt="logo" className="w-24 cursor-pointer" />
+          <img src="/logo.svg" alt="logo" className="w-24 md:w-32 cursor-pointer" />
           <h3 className="text-customPrimary h3 text-left md:text-xl text-lg">Why AMA?</h3>
         </div>
 
@@ -42,7 +42,9 @@ export const Footer: React.FC = () => {
         <p className="text-center">Your Specialised NDIS Service Provider, One Call Away</p>
         <p className="text-center">Contact us for disability daily support, respite and SIL</p> */}
       </div>
-      <p>&copy; Copyright © 2024 Access Mate Au - All Rights Reserved.</p>
+      <p className="py-4 pl-4 md:pl-10 lg:pl-16 text-left text-gray-600">
+        Copyright &copy; 2024 Access Mate Au - All Rights Reserved.
+      </p>
     </footer>
   );
 };

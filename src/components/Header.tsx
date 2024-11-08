@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import React, { ReactNode, useState } from "react";
+import { Button } from "./ui/button";
+import { DropdownButton } from "./DropdownButton";
 
 interface HeaderProps {
   children?: ReactNode;
@@ -24,12 +26,22 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
         </Link>
         {/* Navigation Links */}
         <div className="flex space-x-8 mr-10 text-lg">
-          <Link href="/" className="hover:text-customTertiary ">
-            <text className="tracking-wider">HOME</text>
-          </Link>
-          <Link href="/contact" className="hover:text-customTertiary ">
-            <text className="tracking-wider">CONTACT</text>
-          </Link>
+          <Button className="border-0 bg-white shadow-none hover:bg-white">
+            <Link href="/">
+              <text className="tracking-wider inline-block text-textColor text-base font-normal hover:text-customTertiary ">
+                HOME
+              </text>
+            </Link>
+          </Button>
+
+          <Button className="border-0 bg-white shadow-none hover:bg-white">
+            <Link href="/contact">
+              <text className="tracking-wider inline-block text-textColor text-base font-normal hover:text-customTertiary">
+                CONTACT
+              </text>
+            </Link>
+          </Button>
+          <DropdownButton />
 
           {/* Services Dropdown */}
           {/* <div className="relative cursor-pointer " onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>

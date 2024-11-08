@@ -61,6 +61,7 @@ const config: Config = {
         customTertiary: "#86C248", // Green
         "primary-blur": "#EE91BF",
         "secondary-blur": "#82D5EB",
+        textColor: "#2B2C2E",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

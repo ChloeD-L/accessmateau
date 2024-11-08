@@ -1,8 +1,8 @@
 import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import { AboutUsSection } from "@/components/aboutSection";
-import ContactUsSection from "@/components/contactSection";
+import HeroSection from "@/components/homeSection/HeroSection";
+import { AboutUsSection } from "@/components/homeSection/aboutSection";
+import ContactUsSection from "@/components/homeSection/contactSection";
 
 export default function Home() {
   return (

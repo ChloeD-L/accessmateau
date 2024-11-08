@@ -1,5 +1,5 @@
 import React from "react";
-import { Circle, Square, TriangleImage } from "./geometric";
+import { Circle, Square, TriangleImage } from "../geometric";
 // import Triangle from "./triangle/Triangle";
 
 export const AboutUsSection: React.FC = () => {
@@ -43,7 +43,7 @@ export const AboutUsSection: React.FC = () => {
             className="flex flex-col items-center gap-4 text-center w-full  border  rounded-lg shadow-lg p-6 hover:shadow-xl hover:border-customTertiary transition duration-300 md:w-1/4"
           >
             {/* 头像部分 */}
-            <div className="border border-customTertiary  w-48 h-48 rounded-full mt-8">
+            <div className="border border-customTertiary w-48 h-48 rounded-full mt-8">
               <img src={`2.jpg`} alt="Team" className="w-full h-full rounded-full" />
             </div>
 
