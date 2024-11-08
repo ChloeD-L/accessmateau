@@ -18,14 +18,14 @@ const HeroSection: React.FC<HeroSectionProps> = ({ children }) => {
             {/* Content Container - Centered Horizontally and Vertically */}
             <div className="relative p-8 text-left xlg:w-full md:w-3/4 z-20">
               <h1 className="text-4xl mi:text-5xl xlg:text-6xl font-bold text-[#722E7B] mb-2">
-                Compassion in <span className=" text-secondary "> Care</span>
+                Compassion in <span className=" text-customSecondary "> Care</span>
               </h1>
-              <h1 className="text-4xl mi:text-5xl xlg:text-6xl font-bold text-secondary mb-4">
+              <h1 className="text-4xl mi:text-5xl xlg:text-6xl font-bold text-customSecondary mb-4">
                 <span className="text-[#722E7B]"> Excellence in</span> Support
               </h1>
               <p className="text-lg text-gray-900 mb-10">Contact us for disability daily support, respite, and SIL</p>
               <div className="flex justify-left">
-                <button className="bg-secondary text-white font-bold py-2 px-6 rounded-full border-4 border-secondary hover:bg-white hover:text-secondary">
+                <button className="bg-customSecondary text-white font-bold py-2 px-6 rounded-full border-4 border-customSecondary hover:bg-white hover:text-customSecondary">
                   Our Service
                 </button>
               </div>
@@ -61,7 +61,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ children }) => {
         <div className="flex flex-row justify-between items-center w-full h-full">
           <div className="relative flex items-center justify-center w-1/3 h-full ">
             <img src="/hero-bottom-left.jpg" alt="People Image" className=" object-cover object-top h-full w-full" />
-            <div className="absolute inset-0 bg-secondary bg-opacity-75 z-30 "></div>
+            <div className="absolute inset-0 bg-customSecondary bg-opacity-75 z-30 "></div>
           </div>
           <div className="relative flex items-center justify-center w-1/3 h-full">
             <img
@@ -69,7 +69,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ children }) => {
               alt="People Image"
               className="inset-0 object-cover object-top h-full w-full"
             />
-            <div className="absolute inset-0 bg-tertiary bg-opacity-75 z-30 h-[200%]"></div>
+            <div className="absolute inset-0 bg-customTertiary bg-opacity-75 z-30 h-[200%]"></div>
           </div>
           <div className="relative flex items-center justify-center w-1/3 h-full ">
             <img
@@ -77,7 +77,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ children }) => {
               alt="People Image"
               className="inset-0 object-cover object-top h-full w-full"
             />
-            <div className="absolute inset-0 bg-primary bg-opacity-75 z-30 h-[200%]"></div>
+            <div className="absolute inset-0 bg-customPrimary bg-opacity-75 z-30 h-[200%]"></div>
           </div>
         </div>
       </div>

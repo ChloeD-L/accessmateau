@@ -51,7 +51,7 @@ const HiringForm = () => {
           </div>
 
           {/* Right Section - Form */}
-          <div className="bg-white border-2 border-tertiary rounded-lg shadow-lg p-6 md:w-2/3 w-full pt-10 pb-24">
+          <div className="bg-white border-2 border-customTertiary rounded-lg shadow-lg p-6 md:w-2/3 w-full pt-10 pb-24">
             <form className="flex flex-col justify-center items-center space-y-6">
               <div className="w-full">
                 <label htmlFor="name" className="block text-gray-700 text-sm mb-1">
@@ -113,7 +113,7 @@ const HiringForm = () => {
 
               <button
                 type="submit"
-                className="w-32 h-10 bg-tertiary text-white font-bold rounded-full py-2 hover:bg-white hover:text-tertiary border-2 border-tertiary transition-colors text-center"
+                className="w-32 h-10 bg-customTertiary text-white font-bold rounded-full py-2 hover:bg-white hover:text-customTertiary border-2 border-customTertiary transition-colors text-center"
               >
                 SUBMIT
               </button>

@@ -24,11 +24,11 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
         </Link>
         {/* Navigation Links */}
         <div className="flex space-x-8 mr-10 text-lg">
-          <Link href="/" className="hover:text-tertiary ">
-            <text className="tracking-widest"></text>HOME
+          <Link href="/" className="hover:text-customTertiary ">
+            <text className="tracking-wider">HOME</text>
           </Link>
-          <Link href="/contact" className="hover:text-tertiary ">
-            <text className="tracking-widest">CONTACT</text>
+          <Link href="/contact" className="hover:text-customTertiary ">
+            <text className="tracking-wider">CONTACT</text>
           </Link>
 
           {/* Services Dropdown */}

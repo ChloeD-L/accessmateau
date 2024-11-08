@@ -34,16 +34,16 @@ export const AboutUsSection: React.FC = () => {
       {/* <Circle top="50%" left="75%" /> */}
       {/* <HollowTriangles /> */}
       <h2 className="text-5xl font-bold text-center tracking-wider pb-2">About Us</h2>
-      <hr className="border-t-4 border-secondary w-[250px] mx-auto mb-10  pb-10" />
+      <hr className="border-t-4 border-customSecondary w-[250px] mx-auto mb-10  pb-10" />
 
       <div className="container mx-auto flex flex-col md:flex-row lg:gap-16 justify-center gap-6">
         {teamInfo.map((info, index) => (
           <div
             key={index}
-            className="flex flex-col items-center gap-4 text-center w-full  border  rounded-lg shadow-lg p-6 hover:shadow-xl hover:border-tertiary transition duration-300 md:w-1/4"
+            className="flex flex-col items-center gap-4 text-center w-full  border  rounded-lg shadow-lg p-6 hover:shadow-xl hover:border-customTertiary transition duration-300 md:w-1/4"
           >
             {/* 头像部分 */}
-            <div className="border border-tertiary  w-48 h-48 rounded-full mt-8">
+            <div className="border border-customTertiary  w-48 h-48 rounded-full mt-8">
               <img src={`2.jpg`} alt="Team" className="w-full h-full rounded-full" />
             </div>
 

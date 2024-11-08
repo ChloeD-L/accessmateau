@@ -12,37 +12,37 @@ export const Footer: React.FC = () => {
 
         <div className="hidden md:flex items-center lg:gap-32 sm:gap-24">
           <img src="/logo.svg" alt="logo" className="w-24 cursor-pointer" />
-          <h3 className="text-primary h3 text-left md:text-xl text-lg">Why AMA?</h3>
+          <h3 className="text-customPrimary h3 text-left md:text-xl text-lg">Why AMA?</h3>
         </div>
 
         <div className="flex flex-col items-center justify-between space-y-10 md:hidden">
           <img src="/logo.svg" alt="logo" className="w-24 cursor-pointer" />
-          <h3 className="text-primary h3 text-center text-xl">Why AMA?</h3>
+          <h3 className="text-customPrimary h3 text-center text-xl">Why AMA?</h3>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-5">
-          <h3 className="text-center text-primary h3 md:text-xl text-lg">Our Program</h3>
-          <p className="text-center text-black footer">NDIS Daily living support</p>
-          <p className="text-center text-black footer">NDIS Community Access Support</p>
-          <p className="text-center text-black footer">Supported Living and respite</p>
+          <h3 className="text-center text-customPrimary h3 md:text-xl text-lg">Our Program</h3>
+          <p className="text-center  footer">NDIS Daily living support</p>
+          <p className="text-center  footer">NDIS Community Access Support</p>
+          <p className="text-center footer">Supported Living and respite</p>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-5">
-          <h3 className="text-center text-primary md:text-xl text-lg">Contact Us</h3>
+          <h3 className="text-center text-customPrimary md:text-xl text-lg">Contact Us</h3>
           <div className="flex flex-col items-center justify-center gap-2">
-            <p className="text-center text-black footer">Tel: 1300 188 588</p>
-            <p className="text-center text-black footer">info@accessmateau.com</p>
+            <p className="text-center  footer">Tel: 1300 188 588</p>
+            <p className="text-center  footer">info@accessmateau.com</p>
           </div>
           <div className="flex flex-col items-center justify-center gap-2">
-            <p className="text-center text-black footer">Suite 105, 672 Glenferrie Rd</p>
-            <p className="text-center text-black footer">Howthorn VIC 3122</p>
+            <p className="text-center  footer">Suite 105, 672 Glenferrie Rd</p>
+            <p className="text-center  footer">Howthorn VIC 3122</p>
           </div>
         </div>
         {/* <p className="text-center">Access Mate Australia</p>
         <p className="text-center">Your Specialised NDIS Service Provider, One Call Away</p>
         <p className="text-center">Contact us for disability daily support, respite and SIL</p> */}
       </div>
-      {/* <p>&copy; 2021 Access Mate Australia</p> */}
+      <p>&copy; Copyright © 2024 Access Mate Au - All Rights Reserved.</p>
     </footer>
   );
 };
