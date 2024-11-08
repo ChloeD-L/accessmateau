@@ -9,7 +9,7 @@ export function Circle({ top, left }: { top: string; left: string }) {
         left: left,
         width: "40px",
         height: "40px",
-        border: "3px solid #feb20f",
+        border: "3px solid #E34895",
         borderRadius: "50%",
         backgroundColor: "white",
       }}

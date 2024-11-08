@@ -8,7 +8,7 @@ import React from "react";
 const ContactPage = () => {
   return (
     <div className="flex flex-col w-full snap-y">
-      <Header />
+      <Header className="sticky md:sticky" />
       <QuerySection />
       {/* //{" "}
       <div className="container mx-auto p-4">

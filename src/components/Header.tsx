@@ -5,28 +5,30 @@ import React, { ReactNode, useState } from "react";
 
 interface HeaderProps {
   children?: ReactNode;
+  className?: string;
 }
 
-const Header: React.FC<HeaderProps> = ({ children }) => {
+const Header: React.FC<HeaderProps> = ({ children, className }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+  const rootClassNames = className ? className : "";
 
   return (
-    <header className="bg-white shadow-lg md:sticky py-5 h-30 z-50 top-0 left-0 right-0">
+    <header id="header" className={"bg-white shadow-lg md:fixed py-5 h-30 z-50 top-0 left-0 right-0" + ` ${className}`}>
       <nav className="container mx-auto flex items-center justify-between md:px-10 px-4">
         <Link href="/">
           <img src="/logo.svg" alt="logo" className="w-24 cursor-pointer" />
         </Link>
         {/* Navigation Links */}
-        <div className="flex space-x-6 mr-10 text-lg">
-          <Link href="/" className="hover:text-tertiary font-semibond">
-            Home
+        <div className="flex space-x-8 mr-10 text-lg">
+          <Link href="/" className="hover:text-tertiary ">
+            <text className="tracking-widest"></text>HOME
           </Link>
-          <Link href="/contact" className="hover:text-tertiary font-semibond">
-            Contact Us
+          <Link href="/contact" className="hover:text-tertiary ">
+            <text className="tracking-widest">CONTACT</text>
           </Link>
 
           {/* Services Dropdown */}

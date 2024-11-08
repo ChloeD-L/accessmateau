@@ -6,7 +6,7 @@ import ContactUsSection from "@/components/contactSection";
 
 export default function Home() {
   return (
-    <div className="h-screen w-full snap-y snap-mandatory overflow-y-scroll">
+    <div className="w-full snap-y snap-mandatory overflow-y-scroll">
       <Header />
       <section className="snap-start">
         <HeroSection />
