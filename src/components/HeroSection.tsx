@@ -6,11 +6,11 @@ interface HeroSectionProps {
 
 const HeroSection: React.FC<HeroSectionProps> = ({ children }) => {
   return (
-    <section id="home" className="w-full h-screen flex flex-col overflow-hidden ">
-      <div className="flex flex-col items-center w-full h-3/4 gap-0">
+    <section id="home" className="w-full max-h-screen md:h-screen flex flex-col overflow-hidden ">
+      <div className="flex flex-row md:flex-col items-center w-full h-3/4 gap-0">
         {/* 左侧灰色半透明背景 (65%) */}
         <div className="flex flex-row w-full h-full text-left">
-          <div className="w-2/3 relative flex items-center pl-10 md:pl-16 lg:pl-24 md:pb-20 pb-8">
+          <div className="w-full md:w-2/3 relative flex items-center pl-10 md:pl-16 lg:pl-24 md:pb-20 pb-8">
             {/* Background Image */}
             <img
               src="/people.png"
@@ -37,7 +37,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ children }) => {
           </div>
 
           {/* 右侧紫色背景 (35%) */}
-          <div className="w-1/3 relative bg-[#722E7B]">
+          <div className="md:w-1/3 relative bg-[#722E7B]">
             {/* 中间的不规则图形和图片 */}
             <div className="absolute top-0 lg:left-[-10%] md:left-[-5%] w-[600px] h-[800px] scale-125 flex items-center justify-center z-10">
               <div className="relative left-[-200px]">

@@ -7,7 +7,7 @@ import React from "react";
 
 const ContactPage = () => {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full snap-y">
       <Header />
       <QuerySection />
       {/* //{" "}
@@ -17,7 +17,9 @@ const ContactPage = () => {
         //{" "}
       </div> */}
       <HiringForm />
-      <Footer />
+      <section className="snap-end">
+        <Footer />
+      </section>
     </div>
   );
 };
