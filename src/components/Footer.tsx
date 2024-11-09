@@ -12,30 +12,28 @@ export const Footer: React.FC = () => {
 
         <div className="hidden md:flex items-center lg:gap-32 sm:gap-24">
           <img src="/logo.svg" alt="logo" className="w-24 md:w-32 cursor-pointer" />
-          <h3 className="text-customPrimary h3 text-left md:text-xl text-lg">Why AMA?</h3>
         </div>
 
         <div className="flex flex-col items-center justify-between space-y-10 md:hidden">
           <img src="/logo.svg" alt="logo" className="w-24 cursor-pointer" />
-          <h3 className="text-customPrimary h3 text-center text-xl">Why AMA?</h3>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-5">
+        <div className="flex flex-col items-start justify-center gap-5">
           <h3 className="text-center text-customPrimary h3 md:text-xl text-lg">Our Program</h3>
           <p className="text-center  footer">NDIS Daily living support</p>
           <p className="text-center  footer">NDIS Community Access Support</p>
           <p className="text-center footer">Supported Living and respite</p>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-5">
+        <div className="flex flex-col items-start justify-center gap-5">
           <h3 className="text-center text-customPrimary md:text-xl text-lg">Contact Us</h3>
-          <div className="flex flex-col items-center justify-center gap-2">
-            <p className="text-center  footer">Tel: 1300 188 588</p>
-            <p className="text-center  footer">info@accessmateau.com</p>
+          <div className="flex flex-col items-start justify-center gap-2">
+            <p className="text-left  footer">Tel: 1300 188 588</p>
+            <p className="text-left  footer">Email: info@accessmateau.com</p>
           </div>
-          <div className="flex flex-col items-center justify-center gap-2">
-            <p className="text-center  footer">Suite 105, 672 Glenferrie Rd</p>
-            <p className="text-center  footer">Howthorn VIC 3122</p>
+          <div className="flex flex-col items-left justify-center gap-2">
+            <p className="text-left  footer">Address: Suite 105, 672 Glenferrie Rd</p>
+            <p className="text-left  footer">Howthorn VIC 3122</p>
           </div>
         </div>
         {/* <p className="text-center">Access Mate Australia</p>
@@ -43,7 +41,7 @@ export const Footer: React.FC = () => {
         <p className="text-center">Contact us for disability daily support, respite and SIL</p> */}
       </div>
       <p className="py-4 pl-4 md:pl-10 lg:pl-16 text-left text-gray-600">
-        Copyright &copy; 2024 Access Mate Au - All Rights Reserved.
+        Copyright &copy; 2024 Access Mate Autralia - All Rights Reserved.
       </p>
     </footer>
   );
