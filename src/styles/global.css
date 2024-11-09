@@ -59,6 +59,30 @@ body::-webkit-scrollbar {
   position: relative;
 }
 
+.service-background {
+  position: relative;
+  background: url("/2.jpg") center/cover no-repeat;
+  height: 100vh;
+}
+
+.service-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(211, 211, 211, 0.4); /* 浅灰色，50% 透明度 */
+  z-index: 1;
+  filter: brightness(0.8);
+}
+
+.service-content {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   /* background: linear-gradient(
