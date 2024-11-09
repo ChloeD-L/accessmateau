@@ -1,13 +1,9 @@
-// app/about/page.tsx
+// src/app/about/page.tsx
+
 import React from "react";
 
-const AboutPage = () => {
-  return (
-    <div className="container mx-auto pt-30">
-      <h1 className="text-3xl font-bold">About Us</h1>
-      <p className="mt-4 text-lg">Welcome to our website! We are dedicated to providing the best services.</p>
-    </div>
-  );
+const AboutPage: React.FC = () => {
+  return <div>About Us</div>;
 };
 
 export default AboutPage;
