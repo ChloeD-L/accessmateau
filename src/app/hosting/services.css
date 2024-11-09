@@ -8,6 +8,11 @@
   align-items: center;
 }
 
+.content-background {
+  background: white;
+  opacity: 0.8;
+}
+
 .clipped-background::before {
   content: "";
   position: absolute;
@@ -27,6 +32,7 @@
   width: 100%;
   height: 100%;
   background-color: #722e7b;
+  opacity: 0.3;
   clip-path: polygon(100% 100%, 47.1% 100%, 100% 59.3%);
 }
 
