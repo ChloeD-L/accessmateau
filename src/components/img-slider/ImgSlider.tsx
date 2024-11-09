@@ -24,12 +24,18 @@ export const ImgSlider: React.FC<ImgSliderProps> = ({ houseId = 1 }) => {
   // 根据 houseId 动态加载图片
   if (houseId === 2) {
     images = [
-      "/img/house2/house2-1.jpg",
-      "/img/house2/house2-2.jpg",
-      "/img/house2/house2-3.jpg",
-      "/img/house2/house2-4.jpg",
-      "/img/house2/house2-5.jpg",
-      "/img/house2/house2-6.jpg",
+      "/img/house3/house2-1.jpg",
+      "/img/house3/house2-2.jpg",
+      "/img/house3/house2-3.jpg",
+      "/img/house3/house2-4.jpg",
+      "/img/house3/house2-5.jpg",
+      "/img/house3/house2-6.jpg",
+      "/img/house3/house2-7.jpg",
+      "/img/house3/house2-8.jpg",
+      "/img/house3/house2-9.jpg",
+      "/img/house3/house2-10.jpg",
+      "/img/house3/house2-11.jpg",
+      "/img/house3/house2-12.jpg",
     ];
   } else {
     images = [

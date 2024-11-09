@@ -10,8 +10,8 @@ const HosingPage: React.FC = () => {
     <div className="flex flex-col snap-y">
       <Header className="sticky md:sticky" />
       <section className="snap-center service-background min-h-screen w-full flex flex-col items-center justify-center bg-[url('/2.jpg')]">
-        <div className="bg-gray-50 p-6 rounded-lg shadow-lg relative grid z-10 clipped-background">
-          <div className="flex flex-col items-center justify-center relative">
+        <div className="  rounded-lg shadow-lg relative grid z-10 clipped-background ">
+          <div className="flex flex-col items-center justify-center content-background ">
             <div className="flex flex-row items-center justify-center">
               {/* <img src="/img/geo-2.png" alt="Irregular Shape" className="w-32 h-32" /> */}
               <h1
