@@ -65,7 +65,7 @@ export const DropdownButton: React.FC = () => {
 
       <DropdownMenuContent className="w-48 bg-white shadow-md rounded-lg p-2">
         <DropdownMenuItem asChild onSelect={(e) => e.preventDefault()}>
-          <Link href="/service">
+          <Link href="/services">
             <text className="cursor-pointer text-base">Our service</text>
           </Link>
         </DropdownMenuItem>

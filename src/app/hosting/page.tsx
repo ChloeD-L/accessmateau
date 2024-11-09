@@ -14,12 +14,18 @@ const HosingPage: React.FC = () => {
           <div className="flex flex-col items-center justify-center relative">
             <div className="flex flex-row items-center justify-center">
               {/* <img src="/img/geo-2.png" alt="Irregular Shape" className="w-32 h-32" /> */}
-              <h1 className="service-content text-4xl md:text-6xl font-bold font-mono tracking-wide text-gray-800">
+              <h1
+                className="service-content text-4xl md:text-6xl font-bold tracking-wide text-gray-800 "
+                style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.3)" }}
+              >
                 <span className=""> SIL and </span>Service
               </h1>
             </div>
 
-            <p className="service-content mx-4 md:mx-24 text-xl font-normal text-center leading-relaxed text-gray-800">
+            <p
+              className="service-content mx-4 md:mx-24 text-xl font-normal text-center leading-relaxed text-gray-800 "
+              style={{ textShadow: "1px 1px 2px rgba(0, 0, 0, 0.2)" }}
+            >
               Our SIL and respite services are designed to help individuals with disabilities develop their skills and
               capabilities while maintaining their independence, and participate in community life to the fullest extent
               possible.

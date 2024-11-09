@@ -7,7 +7,7 @@ const ServicePage: React.FC = () => {
     <div className="flex flex-col snap-y">
       <Header className="sticky md:sticky" />
       <section className="flex flex-col py-16 px-8 md:px-16 bg-white">
-        <h3 className="text-4xl md:text-5xl font-bold text-center bg-[#722E7B] rounded-full py-8 mx-96 text-white mb-24">
+        <h3 className="text-4xl md:text-5xl font-bold text-center bg-[#722E7B] rounded-full py-8 mx-96 text-white mb-24 shadow-2xl">
           Our Services
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -36,9 +36,6 @@ export const Footer: React.FC = () => {
             <p className="text-left  footer">Howthorn VIC 3122</p>
           </div>
         </div>
-        {/* <p className="text-center">Access Mate Australia</p>
-        <p className="text-center">Your Specialised NDIS Service Provider, One Call Away</p>
-        <p className="text-center">Contact us for disability daily support, respite and SIL</p> */}
       </div>
       <p className="py-4 pl-4 md:pl-10 lg:pl-16 text-left text-gray-600">
         Copyright &copy; 2024 Access Mate Autralia - All Rights Reserved.

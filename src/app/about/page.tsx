@@ -1,9 +1,9 @@
+// src/app/about/page.tsx
+
 import React from "react";
 
-export const ServicePage: React.FC = () => {
-  return (
-    <div>
-      <h1>Service Page</h1>
-    </div>
-  );
+const AboutPage: React.FC = () => {
+  return <div>About Us</div>;
 };
+
+export default AboutPage;
