@@ -13,7 +13,34 @@ const images = [
   "/img/house1/house1-6.jpg",
 ];
 
-export const ImgSlider = () => {
+interface ImgSliderProps {
+  houseId: number;
+}
+
+export const ImgSlider: React.FC<ImgSliderProps> = ({ houseId = 1 }) => {
+  // 声明图片数组
+  let images: string[] = [];
+
+  // 根据 houseId 动态加载图片
+  if (houseId === 2) {
+    images = [
+      "/img/house2/house2-1.jpg",
+      "/img/house2/house2-2.jpg",
+      "/img/house2/house2-3.jpg",
+      "/img/house2/house2-4.jpg",
+      "/img/house2/house2-5.jpg",
+      "/img/house2/house2-6.jpg",
+    ];
+  } else {
+    images = [
+      "/img/house1/house1-1.jpg",
+      "/img/house1/house1-2.jpg",
+      "/img/house1/house1-3.jpg",
+      "/img/house1/house1-4.jpg",
+      "/img/house1/house1-5.jpg",
+      "/img/house1/house1-6.jpg",
+    ];
+  }
   const [[page, direction], setPage] = useState([0, 0]);
   const maxPage = images.length - 1;
   const paginate = (newDirection: number) => {
@@ -46,7 +73,7 @@ export const ImgSlider = () => {
           <div key={id} className={`overlay-container ${className}`}>
             <motion.img
               src={src}
-              className="img"
+              className="img "
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
